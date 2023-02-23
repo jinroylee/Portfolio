@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Jinho Lee',
-  role: 'Master Student in Computer Science',
+  role: 'Future Technology Optimist',
   description:
-    'I am a .',
+    'I am a student at the University of Illinois at Urbana Champaign, pursuing a Master of Computer Science Degree. I am highly motivated and extremely passionate about developing. I am currently looking for an innovative company where I can show my passion and skills in the field of computer science!',
   resume: 'https://drive.google.com/file/d/18dcolKelO_jX1IGeYejMhadFAGrhF97r/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/jin-ho-lee-a66191153/',
@@ -23,15 +23,15 @@ const projects = [
   {
     name: 'Novus-J-Mate Restaurant App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Building a web app to provide augmented dining experiences to the users and assist their decisions.',
     stack: ['TypeScript', 'React', 'MongoDB', 'Node','Express'],
     sourceCode: 'https://github.com/jinhohl2/Novus-J-Mate-Restaurant',
-    livePreview: 'https://27guptamohit.gitlab.io/novus-j-mate-restaurant/',
+    livePreview: 'https://27guptamohit.gitlab.io/sign-up',
   },
   {
     name: '3D Reconstruction with Radon Transformation',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Medical image analysis and reconstruction using image processing techniques. Check out the preview by clicking the button below!',
     stack: ['Python', 'Computer Vision'],
     sourceCode: 'https://github.com/jinhohl2/3D-Reconstruction-of-Medical-Images-with-Radom-Transformation',
     livePreview: 'https://drive.google.com/file/d/1TptasmPkFpJjEO-C_m44Z4Z2pdB2-wix/view?usp=sharing',
@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Field Efficiency Visualization',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Visualization of tractor routes and crop harvest data using modern visualization frameworks.',
     stack: ['Javascript', 'Deck.gl', 'amChart'],
     sourceCode: 'https://github.com/jinhohl2/fieldefficiency',
     livePreview: 'https://drive.google.com/file/d/1pV2zYLhXFCNM-DUAaMsEksPTXeoBHSxV/view?usp=sharing',
@@ -47,7 +47,7 @@ const projects = [
   {
     name: 'Face Recognition Model with Graph Structure',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Face recognization/relationship analysis using state-of-the-art computer vision technique and graph structure.',
     stack: ['Deep Learning/AI', 'CNN', 'GNN'],
     sourceCode: 'https://github.com/jinhohl2/Face_Recognition_with_Graph',
     livePreview: 'https://github.com',
@@ -56,7 +56,7 @@ const projects = [
     name: 'Optimal Item Resource Allocation',
     visual: "",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'An algorithm for optimization of convex problem that solves the distribution of multiple resources considering social welfare.',
     stack: ['Python', 'Convex Optimization'],
     sourceCode: 'https://github.com/jinhohl2/Multiple_Item_Allocation',
     livePreview: 'https://github.com',
@@ -64,8 +64,7 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
+
   'Python',
   'C++',
   'JavaScript',
@@ -80,7 +79,6 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'jinhohl2@illinois.edu',
 }
 
